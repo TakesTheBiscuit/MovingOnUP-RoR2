@@ -1,0 +1,9 @@
+﻿{
+  "name": "MovingOnUP",
+  "version_number": "0.3.0",
+  "website_url": "https://github.com/TakesTheBiscuit",
+  "description": "Moving on up when XP level increases",
+  "dependencies": [
+    "bbepis-BepInExPack-5.3.1"
+  ]
+}
