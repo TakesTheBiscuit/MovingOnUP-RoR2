@@ -15,7 +15,7 @@ M People vibes.
 - README.md [approx 1 KB]
 - MovingonupPlugin.dll [approx 1100 KB]
 - manifest.json [approx 1 KB]
-7. Zip them up into
+7. Zip them up into e.g `TakesTheBiscuit-MovingOnUP-0.3.0.zip`
 8. Upload to thunderstore.io
 9. Tag repo with latest release, at time of writing this `0.3.0` which matches both the manifest and the inline annotation inside `MovingonupPlugin.cs`
 10. Test: Launch RoR2 and level up during a run.
