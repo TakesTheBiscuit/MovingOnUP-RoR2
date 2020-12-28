@@ -36,9 +36,6 @@ namespace ExamplePlugin
         //We need our item definition to persist through our functions, and therefore make it a class field.
         private static ItemDef myItemDef;
 
-        private bool FirstLevelInit = false;
-
-
         //The Awake() method is run at the very start when the game is initialized.
         public void Awake()
         {
@@ -86,14 +83,15 @@ namespace ExamplePlugin
                 orig(self);
 
                 // don't spoil the pod dropping in
-                if (!FirstLevelInit)
+                ulong currentExp = TeamManager.instance.GetTeamExperience(self);
+                if (currentExp < 1)
                 {
-                    FirstLevelInit = true;
+                    // not this time
                 }
                 else
                 {
                     // only play AFTER tier1
-                    Chat.AddMessage("Moving on up HOOK! You moved up!");
+                    Chat.AddMessage("Moving on up!");
                     Util.PlaySound("PlayUp", base.gameObject);
                 }
 
