@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1337873912	PlayUp			\Default Work Unit\PlayUp	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	716786636	up2	C:\Users\paul\Documents\WwiseProjects\MOUROR\.cache\Windows\SFX\up2_56D34C19.wem		\Actor-Mixer Hierarchy\Default Work Unit\up2		976716
+
