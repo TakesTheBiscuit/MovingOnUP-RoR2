@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	716713281	PlayUpTeleport			\Default Work Unit\PlayUpTeleport	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	719197983	up4-upupup	C:\Users\paul\Documents\WwiseProjects\MOUROR2\.cache\Windows\SFX\up4-upupup_A1793BE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\up4-upupup		169418
+

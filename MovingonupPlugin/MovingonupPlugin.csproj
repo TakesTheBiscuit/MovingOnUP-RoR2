@@ -14,10 +14,12 @@
 
   <ItemGroup>
     <None Remove="bank.bnk" />
+    <None Remove="bankTeleport.bnk" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="bank.bnk" />
+    <EmbeddedResource Include="bankTeleport.bnk" />
   </ItemGroup>
 
   <ItemGroup>
